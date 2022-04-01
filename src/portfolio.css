@@ -1,0 +1,20 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    text-align: center;
+    margin: 130px auto;
+  }
+
+  small {
+    font-size: 20px;
+  }
+
+  h1, h3 {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .name-heading {
+    font-size: 98px;
+  }
