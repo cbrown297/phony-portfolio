@@ -36,6 +36,10 @@ small {
   color: #232121;
 }
 
+img {
+  width: 30%;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
