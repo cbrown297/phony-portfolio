@@ -24,6 +24,12 @@ p {
   font-weight: normal;
 }
 
+small {
+  font-size: 19px;
+  opacity: 0.8;
+  color: #232121;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
