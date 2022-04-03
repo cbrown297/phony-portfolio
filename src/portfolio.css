@@ -36,10 +36,6 @@ small {
   color: #232121;
 }
 
-.whale-project {
-  height: 80%;
-}
-
 .hero {
   background: var(--secondary-color);
   text-align: center;
