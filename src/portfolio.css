@@ -18,10 +18,17 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 96px;
+  line-height: 1.5;
 }
 
 h2 {
   font-size: 64px;
+}
+
+small {
+  font-size: 19px;
+  opacity: 0.8;
+  color: #232121;
 }
 
 p {
@@ -30,10 +37,9 @@ p {
   line-height: 30px;
 }
 
-small {
-  font-size: 19px;
-  opacity: 0.8;
-  color: #232121;
+.navbar-color {
+  background: var(--secondary-color);
+  opacity: 0.7;
 }
 
 .hero {
@@ -46,13 +52,14 @@ small {
   font-weight: normal;
   font-size: 24px;
   font-family: var(--default-font-family);
-  line-height: 2;
+  line-height: 1.5;
 }
 
 .hero p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
+  color: #272142;
 }
 
 .btn-branding {
@@ -72,4 +79,41 @@ small {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.whale-project {
+  width: 500px;
+  margin-left: 80px;
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+.btn:hover {
+  color: var(--secondary-color);
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  .navbar-color {
+    opacity: 1;
+  }
 }
