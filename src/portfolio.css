@@ -56,7 +56,7 @@ p {
 }
 
 .about-section {
-  margin-top: 100px;
+  padding: 160px 20px;
 }
 
 .about-section h1{
@@ -70,19 +70,23 @@ p {
 }
 
 .about-section img {
-  float: right;
   border-radius: 20px;
   max-width: 500px;
+  float: right;
+}
+
+.about-section-content {
+  margin: 30px
 }
 
 .project-section {
-  margin-top: 100px;
+  padding: 160px 20px;
 }
 
 .project-section h1 {
   font-size: 60px;
  text-align: center;
- padding-bottom: 50px;
+ padding-bottom: 60px;
 }
 
 .project-section h2 {
@@ -158,5 +162,20 @@ p {
 
   .navbar-color {
     opacity: 1;
+  }
+
+  .project-section img {
+    max-width: 367px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
+    margin-top: 60px;
+  }
+
+  .about-section img {
+    max-width: 350px;
+    float: none;
   }
 }
