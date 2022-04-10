@@ -72,7 +72,7 @@ p {
 .about-section img {
   float: right;
   border-radius: 10px;
-  max-width: 600px;
+  max-width: 500px;
 }
 
 .hero p {
@@ -99,11 +99,6 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
-}
-
-.whale-project {
-  width: 500px;
-  margin-left: 80px;
 }
 
 .project-description {
